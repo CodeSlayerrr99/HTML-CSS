@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <title>Acme Web Design | Home</title>
+
+    <!--setting things about the html file, like keywords and such-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Affordable and professional web design">
+    <meta name="keywords" content="web design, affordable web design, professional web design">
+    <meta name="author" content="Mike Moses">
+
+    <!--linking the css file-->
+    <link rel="stylesheet" href="./CSS/style.css">
+
+  </head>
+
+  <body>
+
+      <header>
+        <div class="container">
+
+          <!--top left of the website-->
+          <div id="branding">
+            <!--span is like a div but doesn't move the contents on the next line-->
+            <h1><span class="highlight">Acme</span> Web Design</h1>
+          </div>
+
+          <!-- section of the page that has links to other pages-->
+          <nav>
+            <ul>
+              <li class="current"><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Services</a></li>
+            </ul>
+          </nav>
+
+        </div>
+      </header>
+
+      <section id="showcase">
+        <div class="container">
+          <h1>Affordable Professional Web Design</h1>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+        </div>
+      </section>
+
+      <section id="newsletter">
+        <div class="container">
+          <h1>Subscribe to our newsletter</h1>
+
+          <form action='subscribe.php' method="POST">
+            <input type="email" placeholder="Enter email...">
+            <button type="submit" class="button_1">Subscribe</button>
+          </form>
+        </div>
+      </section>
+
+      <section id="boxes">
+        <div class="container">
+
+          <div class="box">
+            <img src="./Images/Dog1.jpg">
+            <h3>HTML5 Markup</h3>
+            <p>Aenean massa.</p>
+          </div>
+
+          <div class="box">
+            <img src="./Images/Dog2.jpg">
+            <h3>CSS3 Styling</h3>
+            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+          </div>
+
+          <div class="box">
+            <img src="./Images/Dog3.jpg">
+            <h3>Graphic Design</h3>
+            <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+        </div>
+      </section>
+
+      <footer>
+        <p>Acme Web Design, Copyright &copy;2017</p>
+        <p class="abc">A</p>
+      </footer>
+
+  </body>
+
+</html>
+
+<!--class/id="container" contains things to the middle, adds margins-->
